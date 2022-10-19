@@ -1,0 +1,67 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+width: 100%;
+height: 600px;
+
+overflow: hidden;/*si está fueran de este contenedor desaparece*/
+}
+.slider ul{
+    /*doble o triple de tamaño del carrusel*/
+
+display:flex;
+
+animation: cambio 20s infinite alternate linear;
+width: 300%;
+}
+.slider li{
+width: 100%;
+list-style: none;/*como es lista quitamos los puntos*/
+
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+/*Nombre de la animacion*/
+@keyframes cambio{
+    0%{margin-left:  0; }
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/*
+.puntos{
+
+}
+.punto{
+
+}
+*/
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    }
+    
+    .video-responsive iframe,
+    .video-responsive object,
+    .video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }

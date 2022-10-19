@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <!--link a página externa de estilos-->
+       <link rel="stylesheet" type="text/css" href="estilos.css" />
+       <title>Hola pareja!!!!!!</title>
+       <meta charset="UTF-8">
+       <!--linea para que el código se muestre correctamente en movil aunque sea neceasario zoom-->
+       <meta name="viewport" content="width = device-width, initial-scale=1">
+       <!--enlace dispones de una gran variedad de iconos para poder utilizar-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="fotos.css">
+    </head>
+    <body> <!--contenedor padre-->
+     <div class="contenedorGrande"> 
+         <!--contenedor hijo1 -->
+         <div class="contenedorPequeño">
+             <!--cabecera con imagen -->
+           <header class="cabecero1">
+               <!--contenedor nav -->
+               <img class="primera" alt="regalo" src="cabecera.jpg">
+               
+           </header>
+            <nav class="barraNavegacion1">
+              <!--este icono al pulsar sobre él iva a mostrar el menu1-->
+            <!-- <a style="cursor: pointer;"  onclick="mostrar('menu')" id="icono" class="icono"><i class="fa fa-bars"  style="font-size:24px" ></i></a>-->
+            <!--contenedor que a su vez contiene texto y enlaces a otras partes del texto-->
+              <div id="menu1">
+                <!--enlaces de ancla-->
+                  <div > <a class="menu11" href="#Actualidad">#ACTUALIDAD</a></div>
+                  <div > <a class="menu11" href="#experiencia" >#FOTOS</a></div>
+                  <div > <a class="menu11" href="#videos" >#VIDEOS </a></div>
+                 
+              </div>
+            </nav>
+         
+            <main>
+                
+                 <a id="experiencia"></a><!--enlaces de ancla con texto a mostrar-->
+                 <h1 class="h1" >#Fotos</h1> <!--texto de cada apartado-->
+                 <p> <strong>FELICITACIONES Y RECUERDOS:</strong></p>
+               
+                 <p class="h1">La familia y amigos han querido estar con vosotros en este día</p>
+                
+                    <p class="h1">Esperamos os guste nuestra sorpresa</p>
+                  
+                   
+             </main>
+       
+
+
+                <footer><!--pie de página con contacto e iconos de redes sociales-->
+                  <a id="contacto"></a> <!--enlaces de ancla con texto a mostrar-->
+                   <!--contenedor pie-->
+                   <div class="pie"> 
+                     <!--contenedor con clase ico1, en la que están los iconos de facebook y twitter con sus enlaces salto 
+                    de línea y iciono y enlace de whatsapp-->
+                     <div class="ico">
+                       <a id="ico1" class="fa fa-facebook-official" href="https://www.facebook.com/lere.sans/" style="font-size:25px;"></a>
+                       <a id="ico2" class="fa fa-twitter-square"  href= "https://twitter.com/?lang=es" style="font-size:25px;"></a>
+                   </div>
+                
+                     <div><p2 class="ico">María Isabel Plata Parra ,DAW-Diseño de Interfaces Web</p2></div>
+                     <div><p2> mplataparr@educacion.navarra.es</p2></div>
+                   </div>
+               
+        
+    </footer>
+</div>
+
+        <div class="contenedorPrincipal">
+              <header class="cabecero">
+              <img id="cabeceraG" class="primera" alt="imagen de presentación motivos tecnológicos" src="cabecera.jpg">
+              </header> 
+             <nav class="barraNavegacion">
+               <!--este icono al pulsar sobre él iva a mostrar el menu1-->
+              <!--<a style="cursor: pointer;"  onclick="mostrar('menu')" id="icono" class="icono"><i class="fa fa-bars"  style="font-size:24px" ></i></a>-->
+               <!--contenedor que a su vez contiene texto y enlaces a otras partes del texto--> 
+                 <div id="menu">
+                     <!--enlaces de ancla-->
+                     <div > <a class="menu1" href="index.html">#ACTUALIDAD</a></div>
+                     <div > <a class="menu1" href="fotos.html" >#FOTOS</a></div>
+                     <div > <a class="menu1" href="videos.html" >#VIDEOS </a></div>
+                    
+                    
+                 </div>
+             </nav>
+             <main>
+                  
+                  <h1 class="hn" >#Fotos</h1> <!--texto de cada apartado-->
+                  <p> <strong>FELICITACIONES Y RECUERDOS:</strong></p>
+                
+                  <p class="h1">La familia y amigos han querido estar con vosotros en este día</p>
+                 
+                     <p class="h1">Esperamos os guste nuestra sorpresa</p>
+ 
+                  
+                    
+                    <div class="slider">
+                        <ul>
+                            <li>
+                                <img src="img/cabecera.jpg" alt="imagen1">
+                            </li>
+                            <li>
+                                <img src="img/cabecera.jpg" alt="imagen1">
+                            </li>
+                            <li>
+                                <img src="img/cabecera.jpg" alt="imagen1">
+                            </li>
+                                
+                        </ul>
+                        
+                    </div>
+                
+                
+                
+              </main>
+              <footer>
+                
+              
+                  <div class="pie">
+                      
+                    <div class="ico">
+                      <a id="ico3" class="fa fa-facebook-official" href="https://www.facebook.com/lere.sans/" style="font-size:25px;"></a>
+                      <a id="ico4" class="fa fa-twitter-square"  href= "https://twitter.com/?lang=es" style="font-size:25px;"></a>
+                    </div> 
+                    
+                      
+                      <div><p3 class="ico" >María Isabel Plata Parra ,DAW-Diseño de Interfaces Web</p3></div>
+                      <div><p3> mplataparr@educacion.navarra.es</p3></div>
+                  </div>
+             </footer>
+         </div>
+            <script type="text/javascript" src="eventos.js"></script><!--enlace al script js-->
+     </div>   
+    </body>
+</html>
+
